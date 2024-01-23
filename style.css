@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: blue;
+    height: 50px;
+}
+/* .weather content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    width: 150px;
+    background-color: black;
+} */
+.weather{
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    max-width: 280px;
+    width: 95%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    
+    
+}
+.weatherinput{
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 2rem;
+   
+    /* display:flex;
+    justify-content:space-between; */
+}
+.weatherinput input{
+    width:80%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    text-align:left;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+button{
+    width:15%;
+    height: 40px;
+    border-radius:30px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-top: 40px;
+}
+.img img{
+    height:150px;
+    width: 150px;
+}
+.content{
+    display: block;
+    text-align: center;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 2rem;
+    font-weight: 200;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.col1{
+    display: flex;
+    align-items: center;
+    text-align:left;
+    margin-bottom: 10px;
+}
+.col1 img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.humidity{
+    display: block;
+    font-size: 1rem;
+}
+.weatherdes{
+    display: none;
+}
+.error{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 200;
+    display: none;
+    margin-bottom: 5px;
+}
